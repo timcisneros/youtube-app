@@ -15,6 +15,7 @@ const SearchBar = ({ onFormSubmit }) => {
         <div className="field">
           <label>Search For A Video</label>
           <input
+            placeholder="Search"
             type="text"
             value={term}
             onChange={(event) => setTerm(event.target.value)}
